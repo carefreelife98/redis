@@ -7,8 +7,6 @@ metadata:
 spec:
   replicas: 1
   selector:
-    # labels:
-    #   app: redis
     matchLabels:
       app: redis
       role: master
